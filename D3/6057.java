@@ -1,5 +1,5 @@
 // 제목 : 그래프의 삼각형
-// 링크 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=
+// 링크 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWbHcWd6AFcDFAV0
 // 메모리 :  36,872 kb
 // 실행시간 : 184 ms
 
