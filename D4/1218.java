@@ -42,7 +42,7 @@ class Solution
         			if(chk.empty()) answer=0;
         			//전에 열린 괄호가 제 짝이 맞는지 검사
         			else {
-        				char c2 = chk.peek();
+        				char c2 = chk.pop();
         				switch(c1) {
         				case ')':
         					if(c2!='(') answer=0;
@@ -57,13 +57,10 @@ class Solution
         					if(c2!='<') answer=0;
         					break;
         				}
-        				//전에 연 괄호 닫기
-        				chk.pop();
         			}
         		}
         	}
         	//열린 괄호가 모두 닫혔는지 확인
-        	
         	if(!chk.empty()) answer=0;
         	
         	//출력문 저장
