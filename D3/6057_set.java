@@ -1,7 +1,7 @@
 // 제목 : 그래프의 삼각형
 // 링크 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWbHcWd6AFcDFAV0
-// 메모리 :  
-// 실행시간 : 
+// 메모리 :  40,408 kb
+// 실행시간 : 206 ms
 
 import java.util.ArrayList;
 import java.util.Set;
@@ -37,7 +37,6 @@ class Solution
         		st = new StringTokenizer(br.readLine());
         		int x = Integer.parseInt(st.nextToken());
         		int y = Integer.parseInt(st.nextToken());
-        		System.out.println(x);
         		arr.get(x).add(y);
         	}
         	
