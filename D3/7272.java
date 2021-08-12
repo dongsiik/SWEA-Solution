@@ -30,7 +30,7 @@ class Solution
             if(len!=s2.length()) {
                 answer = false;
             }
-            길이가 같으면 앞문자부터 보면서 구멍 갯수가 같은지 확인
+            //길이가 같으면 앞문자부터 보면서 구멍 갯수가 같은지 확인
             else {
                 for(int i=0;i<len;i++) {
                     if(alpha[s1.charAt(i)-'A']!=alpha[s2.charAt(i)-'A']) {
