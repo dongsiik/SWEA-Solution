@@ -21,7 +21,7 @@ class Solution
         for(int test_case = 1; test_case <= T; test_case++)
         {
             int n = 5;
-           String[] strs = new String[5];
+           String[] strs = new String[n];
             int MaxLen =-1;
             
             for(int i=0;i<n;i++) {
