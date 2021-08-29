@@ -1,7 +1,7 @@
 // 제목 : 테네스의 특별한 소수
 // 링크 : https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWRuoqCKkE0DFAXt
-// 메모리 :  26,288 kb
-// 실행시간 : 186 ms
+// 메모리 :  26,576 kb
+// 실행시간 : 183 ms
  
 import java.util.Arrays;
 import java.util.StringTokenizer;
