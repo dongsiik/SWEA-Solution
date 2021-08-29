@@ -63,7 +63,7 @@ class Solution
             int lower_bound = Arrays.binarySearch(primes, 0, primeCount, a);
             if(lower_bound<0) lower_bound = -(lower_bound+1);
              
-            int upper_bound = Arrays.binarySearch(primes, 0, primeCount, b);
+            int upper_bound = Arrays.binarySearch(primes, lower_bound, primeCount, b);
             if(upper_bound<0) upper_bound = -(upper_bound)-2;
             //이 경우는 upper_bound = -insertion point -1이므로, insertion-point -1을 가리키도록 바꿈
              
